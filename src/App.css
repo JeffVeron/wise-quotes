@@ -1,0 +1,162 @@
+
+:root{
+  --deep-blue: #2B2D42;
+  --light-blue: hsl(218, 17%, 62%);
+  --very-light:#EDF2F4;
+  --red:#EF233C;
+  --deep-red:#D80032;
+}
+
+.app-container {
+  margin: 0;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  gap: 1;
+  text-align: center;
+  background-color: var(--light-blue);
+  height: 100%;
+}
+
+.head-container {
+   width: 80%;
+ margin-left: 10%;
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.menu-topics {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.topic-item{
+  padding: 10px;
+  font-weight: bold;
+  font-size:25px;
+  color: white;
+  margin: 5px;
+  border: white solid 5px;
+}
+
+.topic-item:hover{
+  background-color: grey;
+  color: red;
+}
+.body{
+ width: 80%;
+
+ margin-left: 10%;
+  background-color: var(--light-blue);
+  align-items: center;
+  justify-self: center;
+  justify-content: center;
+  gap: 1;
+  border: var(--very-light) solid 10px;
+}
+.about-container{
+   
+  color:#D80032;
+ 
+}
+.hidden{
+  color: white ;
+  display: none;
+}
+
+.author-block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+ flex-wrap: wrap; 
+  justify-content: space-between;
+  font-size: calc(10px + 2vmin);
+ margin-left: 35%;
+ width: 30%;
+ height: 15%;
+ border: #D80032 solid 5px ;
+ border-radius: 5%;
+/*  margin-right: 40%; */
+}
+
+.author-title{
+ 
+ font-style: italic;
+ font-weight: bold; 
+ color: var(--deep-blue) ;
+ font-size: 100%;
+}
+ 
+ 
+
+.category-block{
+   display: flex;
+  flex-direction:column ;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+/*    justify-content: space-between; */
+   width: 30%;
+   margin-left: 35%;
+   border: #D80032 solid 5px ;
+
+}
+
+.category-title{
+  font-weight: bold;
+  color: var(--deep-blue);
+  font-style: italic;
+}
+
+.category-name{
+  text-transform: capitalize;
+}
+.quote-block{
+   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+   justify-content: space-between;
+   margin-left: 35%;
+   width: 30%;
+   height: auto;
+   border: #D80032 solid 5px ;
+}
+
+.quote-title{
+  font-weight: bold;
+  color: var(--deep-blue);
+  font-style: italic;
+}
+
+.more-quotes{
+ /*  border:  red solid 5px ; */
+  font-size: 20px;
+  font-style: oblique;
+  color: var(--deep-blue);
+  font-weight:bold ;
+}
+
+.next-quote-button{
+  height:50px;
+  width: 100px;
+  color: red ;
+}
+
+.footer{
+  background-color: var(--deep-red);
+  color: white;
+   width: 80%;
+ margin-left: 10%;
+ height: auto;
+}
